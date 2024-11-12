@@ -86,3 +86,15 @@ class Lab4 {
     }
   }
 }
+
+/* 
+1. If I was implementing a sort algorithm in a new language with the intent to minimize exection time, I would pick insertion sort based on
+   the fact that it seems to run faster than bubble sort. If I was focused on making it easier for myself to understand, I would choose bubble sort (see question 3).
+
+2. Bubble sort took roughly twice as long as insertion sort. Although they have the same time complexities, it makes sense that bubble sort
+   takes longer because it requires more swaps and more comparisons than insertion sort. Insertion sort also has a best-case scenario of O(n),
+   which bubble sort does not have.
+
+3. Bubble sort is the easier algorithm for me to understand. Insertion sort seems to be harder because not only do you have to walk through the array
+   forwards, but you also have to walk through it backwards making comparisons. Bubble sort, you just walk forward through the array, albeit many times.
+*/
